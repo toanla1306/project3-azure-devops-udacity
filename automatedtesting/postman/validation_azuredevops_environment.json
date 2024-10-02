@@ -1,0 +1,24 @@
+{
+    "id": "c47a44eb-51e9-43de-b52e-d94c65e73765",
+    "name": "AzureDevops",
+    "values": [
+        {
+            "key": "firstName",
+            "value": "Toan",
+            "enabled": true,
+            "type": "default"
+        },
+        {
+            "key": "lastName",
+            "value": "La",
+            "enabled": true,
+            "type": "default"
+        },
+        {
+            "key": "id",
+            "value": "0",
+            "enabled": true,
+            "type": "any"
+        }
+    ]
+}
