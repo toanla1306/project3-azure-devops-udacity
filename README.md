@@ -14,16 +14,23 @@ Feel free to submit PRs to this repo should you have any proposed changes.
     - CICD create infrastructure via Terraform in Azure Devops
 
         ![image](./screenshots/azuredevops-provision-infra-completely.png)
-    - Setup sshkeygen
-    - Create the vms 
+
 
 * A screenshot of the successful execution of the pipeline (screen shot should be of the build results page)
     - 
 
 * Postman Collections
-    - One should be the Run Summary page 
-    - One should be of the Test Results page 
+    - One should be the Run Summary page
+
+        ![image](./screenshots/validation-test-postman.png)
+
+    - One should be of the Test Results page
+
+        ![image](./screenshots/regression-test-postman.png)
+
     - One should be of the output of the Publish Test Results step.
+
+        ![image](./screenshots/publishtestresult-postman.png)
 
 
 * A screenshot of the successful execution of the Test Suite on a VM in Azure DevOps (Selenium)

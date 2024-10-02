@@ -19,7 +19,7 @@ variables:
   # Environment name
   environmentName: 'test'
   # App Service Name
-  webAppName: 'fakerestapi-toanla'
+  webAppName: 'fakerestapi-toanla-AppService'
 
 
 stages:
@@ -212,6 +212,7 @@ stages:
   # Selenium | Functional UI Tests
   # ToDo: 
   - deployment: VMDeploy
+    pool: agentPool
     displayName: Selenium Tests
     environment:
       name: '$(environmentName)'
