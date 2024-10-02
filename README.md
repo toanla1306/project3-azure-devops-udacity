@@ -17,7 +17,8 @@ Feel free to submit PRs to this repo should you have any proposed changes.
 
 
 * A screenshot of the successful execution of the pipeline (screen shot should be of the build results page)
-    - 
+    
+    ![image](./screenshots/pipeline-execution-seccessful.png)
 
 * Postman Collections
     - One should be the Run Summary page
@@ -35,7 +36,14 @@ Feel free to submit PRs to this repo should you have any proposed changes.
 
 * A screenshot of the successful execution of the Test Suite on a VM in Azure DevOps (Selenium)
 
+    ![image](./screenshots/selenium-log.png)
+
 
 * A screenshot of the log output of JMeter when executed by the CI/CD pipeline (JMeter)
 
+    ![image](./screenshots/jmeter-testperf.png)
+
+
 * Screenshots of the email received when the alert is triggered
+
+    ![image](./screenshots/notification-alert-http4xx.png)
