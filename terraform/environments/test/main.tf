@@ -54,7 +54,7 @@ module "publicip" {
 }
 
 module "vmlinux" {
-  source            = "./modules/vm"
+  source            = "../../modules/vm"
   location          = "${var.location}"
   application_type  = "${var.application_type}"
   resource_type     = "VMLinux"
