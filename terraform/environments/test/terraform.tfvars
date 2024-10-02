@@ -5,7 +5,7 @@ client_secret = "csv8Q~WXXz1gEa4M84UTVzFbJiDHA53EyAzKTc_u"
 tenant_id = "f958e84a-92b8-439f-a62d-4f45996b6d07"
 
 # Resource Group/Location
-location = "East US"
+location = "East US 2"
 resource_group_name = "Azuredevops"
 application_type = "fakerestapi-toanla"
 
