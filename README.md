@@ -10,7 +10,10 @@ This repository contains the starter code for the **Ensuring Quality Releases** 
 ## Suggestions and Corrections
 Feel free to submit PRs to this repo should you have any proposed changes. 
 
-* A screenshot of the log output of Terraform when executed by the CI/CD pipeline (ensure the timestamp is visible by toggle timestamps for the specific job).
+* A screenshot of the log output of Terraform when executed by the CI/CD pipeline (ensure the timestamp is visible by toggle timestamps for the specific).
+    - CICD create infrastructure via Terraform in Azure Devops
+
+        ![image](./screenshots/azuredevops-provision-infra-completely.png)
     - Setup sshkeygen
     - Create the vms 
 
