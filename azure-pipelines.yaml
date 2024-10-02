@@ -206,7 +206,7 @@ stages:
                 unzip -o $(Build.BuildId)-perftests.zip
                 ./apache-jmeter-5.2.1/bin/jmeter -n -t PerformanceTestSuite.jmx -j jmeter.log -f
                 cat jmeter.log                                                                       # ToDo: Write your commands
-              workingDirectory: $(Pipeline.Workspace)/drop-fakerestapi           # ToDo: Use the artifact name from the task above
+              workingDirectory: $(Pipeline.Workspace)/drop-perftests    # ToDo: Use the artifact name from the task above
               
   #--------------------------------------------#  
   # Selenium | Functional UI Tests
@@ -223,7 +223,7 @@ stages:
         deploy:
           steps:
           - download: current
-            artifact: drop-ui-tests     # ToDo: Change/provide a name
+            artifact: drop-uitests     # ToDo: Change/provide a name
             
           - task: Bash@3
             inputs:
@@ -253,5 +253,6 @@ stages:
                 fi
                 export PATH=$PATH:/home/testuser/app
                 echo "Starting Selenium Tests"
-                python3 add_remove_from_cart.py >> selenium.log
+                python3 login.py >> selenium.log
+                cat selenium.log
                 echo "Completed Selenium Tests. Check selenium.log for results."
