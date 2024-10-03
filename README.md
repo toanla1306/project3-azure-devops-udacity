@@ -43,7 +43,13 @@ Feel free to submit PRs to this repo should you have any proposed changes.
 
     ![image](./screenshots/jmeter-testperf.png)
 
+    ![image](./screenshots/reporthtmljmeter.png)
+
 
 * Screenshots of the email received when the alert is triggered
 
     ![image](./screenshots/notification-alert-http4xx.png)
+
+* Screenshot of Configure Azure Log Analystic
+
+    ![image](./screenshots/azure-log-analystic.png)
