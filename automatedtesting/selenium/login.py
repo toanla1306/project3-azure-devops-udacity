@@ -14,7 +14,8 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S')
 
 options = ChromeOptions()
-options.add_argument("--headless") 
+options.add_argument("--headless")
+options.add_argument('--remote-debugging-port=9222')
 driver = webdriver.Chrome(options=options)
 print ('INFO: Browser started successfully. Navigating to the demo page to login.')
 logging.info('Browser started successfully. Navigating to the demo page to login.')
