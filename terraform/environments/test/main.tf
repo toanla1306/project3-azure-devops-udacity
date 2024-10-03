@@ -12,7 +12,7 @@ terraform {
     key                  = "test.terraform.tfstate"
     access_key           = "7kTAjRmTSiAxXPtVsPgXwPlonS6DrSx9uC1atVRwS3g+tcACFoKBROJNSwVXoMwd4Zo/bwFvpm9B+AStp5z8jg=="
   }
-  
+
 }
 # module "resource_group" {
 #   source               = "../../modules/resource_group"
